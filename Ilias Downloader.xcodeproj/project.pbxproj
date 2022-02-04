@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17E9F93D27AC54A400C867C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9F93C27AC54A400C867C8 /* AppDelegate.swift */; };
+		17E9F93F27AC54A400C867C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9F93E27AC54A400C867C8 /* SceneDelegate.swift */; };
+		17E9F94227AC54A400C867C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F94027AC54A400C867C8 /* LaunchScreen.storyboard */; };
+		17E9F94527AC54A400C867C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F94327AC54A400C867C8 /* Main.storyboard */; };
+		17E9F94E27AC54A400C867C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9F94D27AC54A400C867C8 /* AppDelegate.swift */; };
+		17E9F95127AC54A400C867C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F94F27AC54A400C867C8 /* Main.storyboard */; };
+		17E9F95827AC54A400C867C8 /* Ilias Downloader Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 17E9F95727AC54A400C867C8 /* Ilias Downloader Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		17E9F96227AC54A400C867C8 /* Ilias Downloader Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 17E9F96127AC54A400C867C8 /* Ilias Downloader Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		17E9F96827AC54A400C867C8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92327AC54A300C867C8 /* Main.html */; };
+		17E9F96927AC54A400C867C8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92327AC54A300C867C8 /* Main.html */; };
+		17E9F96A27AC54A400C867C8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92527AC54A300C867C8 /* Icon.png */; };
+		17E9F96B27AC54A400C867C8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92527AC54A300C867C8 /* Icon.png */; };
+		17E9F96C27AC54A400C867C8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92627AC54A300C867C8 /* Style.css */; };
+		17E9F96D27AC54A400C867C8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92627AC54A300C867C8 /* Style.css */; };
+		17E9F96E27AC54A400C867C8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92727AC54A300C867C8 /* Script.js */; };
+		17E9F96F27AC54A400C867C8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92727AC54A300C867C8 /* Script.js */; };
+		17E9F97027AC54A400C867C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9F92827AC54A300C867C8 /* ViewController.swift */; };
+		17E9F97127AC54A400C867C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9F92827AC54A300C867C8 /* ViewController.swift */; };
+		17E9F97227AC54A400C867C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92927AC54A400C867C8 /* Assets.xcassets */; };
+		17E9F97327AC54A400C867C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92927AC54A400C867C8 /* Assets.xcassets */; };
+		17E9F97427AC54A400C867C8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9F92B27AC54A400C867C8 /* SafariWebExtensionHandler.swift */; };
+		17E9F97527AC54A400C867C8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9F92B27AC54A400C867C8 /* SafariWebExtensionHandler.swift */; };
+		17E9F97627AC54A400C867C8 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92D27AC54A400C867C8 /* _locales */; };
+		17E9F97727AC54A400C867C8 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92D27AC54A400C867C8 /* _locales */; };
+		17E9F97827AC54A400C867C8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92E27AC54A400C867C8 /* images */; };
+		17E9F97927AC54A400C867C8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92E27AC54A400C867C8 /* images */; };
+		17E9F97A27AC54A400C867C8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92F27AC54A400C867C8 /* manifest.json */; };
+		17E9F97B27AC54A400C867C8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F92F27AC54A400C867C8 /* manifest.json */; };
+		17E9F97C27AC54A400C867C8 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F93027AC54A400C867C8 /* background.js */; };
+		17E9F97D27AC54A400C867C8 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F93027AC54A400C867C8 /* background.js */; };
+		17E9F97E27AC54A400C867C8 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F93127AC54A400C867C8 /* content.js */; };
+		17E9F97F27AC54A400C867C8 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 17E9F93127AC54A400C867C8 /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17E9F95927AC54A400C867C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17E9F91D27AC54A300C867C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17E9F95627AC54A400C867C8;
+			remoteInfo = "Ilias Downloader Extension (iOS)";
+		};
+		17E9F96327AC54A400C867C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17E9F91D27AC54A300C867C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17E9F96027AC54A400C867C8;
+			remoteInfo = "Ilias Downloader Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17E9F98B27AC54A400C867C8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				17E9F95827AC54A400C867C8 /* Ilias Downloader Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E9F99227AC54A400C867C8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				17E9F96227AC54A400C867C8 /* Ilias Downloader Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17E9F92427AC54A300C867C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		17E9F92527AC54A300C867C8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		17E9F92627AC54A300C867C8 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		17E9F92727AC54A300C867C8 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		17E9F92827AC54A300C867C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17E9F92927AC54A400C867C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17E9F92B27AC54A400C867C8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		17E9F92D27AC54A400C867C8 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		17E9F92E27AC54A400C867C8 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		17E9F92F27AC54A400C867C8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		17E9F93027AC54A400C867C8 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		17E9F93127AC54A400C867C8 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		17E9F93927AC54A400C867C8 /* Ilias Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ilias Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E9F93C27AC54A400C867C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17E9F93E27AC54A400C867C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		17E9F94127AC54A400C867C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17E9F94427AC54A400C867C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17E9F94627AC54A400C867C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E9F94B27AC54A400C867C8 /* Ilias Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ilias Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E9F94D27AC54A400C867C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17E9F95027AC54A400C867C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17E9F95227AC54A400C867C8 /* Ilias Downloader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ilias Downloader.entitlements"; sourceTree = "<group>"; };
+		17E9F95727AC54A400C867C8 /* Ilias Downloader Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ilias Downloader Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E9F95C27AC54A400C867C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E9F96127AC54A400C867C8 /* Ilias Downloader Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ilias Downloader Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E9F96627AC54A400C867C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E9F96727AC54A400C867C8 /* Ilias Downloader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ilias Downloader.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17E9F93627AC54A400C867C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E9F94827AC54A400C867C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E9F95427AC54A400C867C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E9F95E27AC54A400C867C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E9F91C27AC54A300C867C8 = {
+			isa = PBXGroup;
+			children = (
+				17E9F92127AC54A300C867C8 /* Shared (App) */,
+				17E9F92A27AC54A400C867C8 /* Shared (Extension) */,
+				17E9F93B27AC54A400C867C8 /* iOS (App) */,
+				17E9F94C27AC54A400C867C8 /* macOS (App) */,
+				17E9F95B27AC54A400C867C8 /* iOS (Extension) */,
+				17E9F96527AC54A400C867C8 /* macOS (Extension) */,
+				17E9F93A27AC54A400C867C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17E9F92127AC54A300C867C8 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				17E9F92827AC54A300C867C8 /* ViewController.swift */,
+				17E9F92927AC54A400C867C8 /* Assets.xcassets */,
+				17E9F92227AC54A300C867C8 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		17E9F92227AC54A300C867C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17E9F92327AC54A300C867C8 /* Main.html */,
+				17E9F92527AC54A300C867C8 /* Icon.png */,
+				17E9F92627AC54A300C867C8 /* Style.css */,
+				17E9F92727AC54A300C867C8 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		17E9F92A27AC54A400C867C8 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				17E9F92B27AC54A400C867C8 /* SafariWebExtensionHandler.swift */,
+				17E9F92C27AC54A400C867C8 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		17E9F92C27AC54A400C867C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17E9F92D27AC54A400C867C8 /* _locales */,
+				17E9F92E27AC54A400C867C8 /* images */,
+				17E9F92F27AC54A400C867C8 /* manifest.json */,
+				17E9F93027AC54A400C867C8 /* background.js */,
+				17E9F93127AC54A400C867C8 /* content.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		17E9F93A27AC54A400C867C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E9F93927AC54A400C867C8 /* Ilias Downloader.app */,
+				17E9F94B27AC54A400C867C8 /* Ilias Downloader.app */,
+				17E9F95727AC54A400C867C8 /* Ilias Downloader Extension.appex */,
+				17E9F96127AC54A400C867C8 /* Ilias Downloader Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17E9F93B27AC54A400C867C8 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				17E9F93C27AC54A400C867C8 /* AppDelegate.swift */,
+				17E9F93E27AC54A400C867C8 /* SceneDelegate.swift */,
+				17E9F94027AC54A400C867C8 /* LaunchScreen.storyboard */,
+				17E9F94327AC54A400C867C8 /* Main.storyboard */,
+				17E9F94627AC54A400C867C8 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		17E9F94C27AC54A400C867C8 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				17E9F94D27AC54A400C867C8 /* AppDelegate.swift */,
+				17E9F94F27AC54A400C867C8 /* Main.storyboard */,
+				17E9F95227AC54A400C867C8 /* Ilias Downloader.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		17E9F95B27AC54A400C867C8 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				17E9F95C27AC54A400C867C8 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		17E9F96527AC54A400C867C8 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				17E9F96627AC54A400C867C8 /* Info.plist */,
+				17E9F96727AC54A400C867C8 /* Ilias Downloader.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17E9F93827AC54A400C867C8 /* Ilias Downloader (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E9F98C27AC54A400C867C8 /* Build configuration list for PBXNativeTarget "Ilias Downloader (iOS)" */;
+			buildPhases = (
+				17E9F93527AC54A400C867C8 /* Sources */,
+				17E9F93627AC54A400C867C8 /* Frameworks */,
+				17E9F93727AC54A400C867C8 /* Resources */,
+				17E9F98B27AC54A400C867C8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17E9F95A27AC54A400C867C8 /* PBXTargetDependency */,
+			);
+			name = "Ilias Downloader (iOS)";
+			productName = "Ilias Downloader (iOS)";
+			productReference = 17E9F93927AC54A400C867C8 /* Ilias Downloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17E9F94A27AC54A400C867C8 /* Ilias Downloader (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E9F99327AC54A400C867C8 /* Build configuration list for PBXNativeTarget "Ilias Downloader (macOS)" */;
+			buildPhases = (
+				17E9F94727AC54A400C867C8 /* Sources */,
+				17E9F94827AC54A400C867C8 /* Frameworks */,
+				17E9F94927AC54A400C867C8 /* Resources */,
+				17E9F99227AC54A400C867C8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17E9F96427AC54A400C867C8 /* PBXTargetDependency */,
+			);
+			name = "Ilias Downloader (macOS)";
+			productName = "Ilias Downloader (macOS)";
+			productReference = 17E9F94B27AC54A400C867C8 /* Ilias Downloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17E9F95627AC54A400C867C8 /* Ilias Downloader Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E9F98827AC54A400C867C8 /* Build configuration list for PBXNativeTarget "Ilias Downloader Extension (iOS)" */;
+			buildPhases = (
+				17E9F95327AC54A400C867C8 /* Sources */,
+				17E9F95427AC54A400C867C8 /* Frameworks */,
+				17E9F95527AC54A400C867C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ilias Downloader Extension (iOS)";
+			productName = "Ilias Downloader Extension (iOS)";
+			productReference = 17E9F95727AC54A400C867C8 /* Ilias Downloader Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		17E9F96027AC54A400C867C8 /* Ilias Downloader Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E9F98F27AC54A400C867C8 /* Build configuration list for PBXNativeTarget "Ilias Downloader Extension (macOS)" */;
+			buildPhases = (
+				17E9F95D27AC54A400C867C8 /* Sources */,
+				17E9F95E27AC54A400C867C8 /* Frameworks */,
+				17E9F95F27AC54A400C867C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ilias Downloader Extension (macOS)";
+			productName = "Ilias Downloader Extension (macOS)";
+			productReference = 17E9F96127AC54A400C867C8 /* Ilias Downloader Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17E9F91D27AC54A300C867C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					17E9F93827AC54A400C867C8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					17E9F94A27AC54A400C867C8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					17E9F95627AC54A400C867C8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					17E9F96027AC54A400C867C8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 17E9F92027AC54A300C867C8 /* Build configuration list for PBXProject "Ilias Downloader" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17E9F91C27AC54A300C867C8;
+			productRefGroup = 17E9F93A27AC54A400C867C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17E9F93827AC54A400C867C8 /* Ilias Downloader (iOS) */,
+				17E9F94A27AC54A400C867C8 /* Ilias Downloader (macOS) */,
+				17E9F95627AC54A400C867C8 /* Ilias Downloader Extension (iOS) */,
+				17E9F96027AC54A400C867C8 /* Ilias Downloader Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17E9F93727AC54A400C867C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E9F96A27AC54A400C867C8 /* Icon.png in Resources */,
+				17E9F94227AC54A400C867C8 /* LaunchScreen.storyboard in Resources */,
+				17E9F96827AC54A400C867C8 /* Main.html in Resources */,
+				17E9F96E27AC54A400C867C8 /* Script.js in Resources */,
+				17E9F97227AC54A400C867C8 /* Assets.xcassets in Resources */,
+				17E9F94527AC54A400C867C8 /* Main.storyboard in Resources */,
+				17E9F96C27AC54A400C867C8 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E9F94927AC54A400C867C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E9F96B27AC54A400C867C8 /* Icon.png in Resources */,
+				17E9F96D27AC54A400C867C8 /* Style.css in Resources */,
+				17E9F95127AC54A400C867C8 /* Main.storyboard in Resources */,
+				17E9F96F27AC54A400C867C8 /* Script.js in Resources */,
+				17E9F97327AC54A400C867C8 /* Assets.xcassets in Resources */,
+				17E9F96927AC54A400C867C8 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E9F95527AC54A400C867C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E9F97C27AC54A400C867C8 /* background.js in Resources */,
+				17E9F97827AC54A400C867C8 /* images in Resources */,
+				17E9F97A27AC54A400C867C8 /* manifest.json in Resources */,
+				17E9F97627AC54A400C867C8 /* _locales in Resources */,
+				17E9F97E27AC54A400C867C8 /* content.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E9F95F27AC54A400C867C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E9F97D27AC54A400C867C8 /* background.js in Resources */,
+				17E9F97927AC54A400C867C8 /* images in Resources */,
+				17E9F97B27AC54A400C867C8 /* manifest.json in Resources */,
+				17E9F97727AC54A400C867C8 /* _locales in Resources */,
+				17E9F97F27AC54A400C867C8 /* content.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17E9F93527AC54A400C867C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E9F97027AC54A400C867C8 /* ViewController.swift in Sources */,
+				17E9F93D27AC54A400C867C8 /* AppDelegate.swift in Sources */,
+				17E9F93F27AC54A400C867C8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E9F94727AC54A400C867C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E9F97127AC54A400C867C8 /* ViewController.swift in Sources */,
+				17E9F94E27AC54A400C867C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E9F95327AC54A400C867C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E9F97427AC54A400C867C8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E9F95D27AC54A400C867C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E9F97527AC54A400C867C8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17E9F95A27AC54A400C867C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17E9F95627AC54A400C867C8 /* Ilias Downloader Extension (iOS) */;
+			targetProxy = 17E9F95927AC54A400C867C8 /* PBXContainerItemProxy */;
+		};
+		17E9F96427AC54A400C867C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17E9F96027AC54A400C867C8 /* Ilias Downloader Extension (macOS) */;
+			targetProxy = 17E9F96327AC54A400C867C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17E9F92327AC54A300C867C8 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E9F92427AC54A300C867C8 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		17E9F94027AC54A400C867C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E9F94127AC54A400C867C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		17E9F94327AC54A400C867C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E9F94427AC54A400C867C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17E9F94F27AC54A400C867C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E9F95027AC54A400C867C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17E9F98627AC54A400C867C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17E9F98727AC54A400C867C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		17E9F98927AC54A400C867C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACWKKDLK2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ilias Downloader Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilteen.Ilias-Downloader.Extension";
+				PRODUCT_NAME = "Ilias Downloader Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17E9F98A27AC54A400C867C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACWKKDLK2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ilias Downloader Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilteen.Ilias-Downloader.Extension";
+				PRODUCT_NAME = "Ilias Downloader Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17E9F98D27AC54A400C867C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACWKKDLK2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ilias Downloader";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilteen.Ilias-Downloader";
+				PRODUCT_NAME = "Ilias Downloader";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17E9F98E27AC54A400C867C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACWKKDLK2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ilias Downloader";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilteen.Ilias-Downloader";
+				PRODUCT_NAME = "Ilias Downloader";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17E9F99027AC54A400C867C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Ilias Downloader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACWKKDLK2R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ilias Downloader Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilteen.Ilias-Downloader.Extension";
+				PRODUCT_NAME = "Ilias Downloader Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		17E9F99127AC54A400C867C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Ilias Downloader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACWKKDLK2R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ilias Downloader Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilteen.Ilias-Downloader.Extension";
+				PRODUCT_NAME = "Ilias Downloader Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		17E9F99427AC54A400C867C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Ilias Downloader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACWKKDLK2R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ilias Downloader";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilteen.Ilias-Downloader";
+				PRODUCT_NAME = "Ilias Downloader";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		17E9F99527AC54A400C867C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Ilias Downloader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACWKKDLK2R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ilias Downloader";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilteen.Ilias-Downloader";
+				PRODUCT_NAME = "Ilias Downloader";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E9F92027AC54A300C867C8 /* Build configuration list for PBXProject "Ilias Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E9F98627AC54A400C867C8 /* Debug */,
+				17E9F98727AC54A400C867C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E9F98827AC54A400C867C8 /* Build configuration list for PBXNativeTarget "Ilias Downloader Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E9F98927AC54A400C867C8 /* Debug */,
+				17E9F98A27AC54A400C867C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E9F98C27AC54A400C867C8 /* Build configuration list for PBXNativeTarget "Ilias Downloader (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E9F98D27AC54A400C867C8 /* Debug */,
+				17E9F98E27AC54A400C867C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E9F98F27AC54A400C867C8 /* Build configuration list for PBXNativeTarget "Ilias Downloader Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E9F99027AC54A400C867C8 /* Debug */,
+				17E9F99127AC54A400C867C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E9F99327AC54A400C867C8 /* Build configuration list for PBXNativeTarget "Ilias Downloader (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E9F99427AC54A400C867C8 /* Debug */,
+				17E9F99527AC54A400C867C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17E9F91D27AC54A300C867C8 /* Project object */;
+}
