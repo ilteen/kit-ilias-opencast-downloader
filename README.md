@@ -8,3 +8,14 @@ This safari extension adds a download button to your safari bar (and context man
 The extension downloads them by finding the link to the video file in the page source.
 No security measures or whatsoever of Ilias are bypassed.
 You could do this by hand, but that's tedious.
+
+### Safari on macOS and iPadOS menu bar item
+<p float="left">
+  <img src="/screenshots/macOS-safari-menu-bar.png" width="250" />
+  <img src="screenshots/iPadOS-safari-menu-bar.PNG" width="450" />
+</p>
+
+### Safari on macOS context menu
+<p float="left">
+  <img src="/screenshots/macOS-safari-context-menu.png" width="250" /> 
+</p>
